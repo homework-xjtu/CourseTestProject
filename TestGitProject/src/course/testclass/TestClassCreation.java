@@ -6,7 +6,11 @@ public class TestClassCreation {
 		// TODO Auto-generated method stub
 		
 		System.out.println("hello world!");
+		new TestClassCreation();
 
+	}
+	public TestClassCreation(){
+		System.out.println("constructors!");
 	}
 
 }
