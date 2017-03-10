@@ -12,5 +12,8 @@ public class TestClassCreation {
 	public TestClassCreation(){
 		System.out.println("constructors!");
 	}
+	public TestClassCreation( int i ){
+		System.out.println("This is a "+i	);
+	}
 
 }
